@@ -33,57 +33,11 @@
                 </button>
             </div>
         </div>
-<!-- 
-        <div class="container" id="booknow">
-            <div class="card border border-2 rounded p-4">
-                <div class="card-body">
-                    <div class="container text-right">
-                        <div class="row row-cols-2 row-cols-lg-4 g-2 g-lg-3" style="color: #554931">
-                            <div class="col">
-                                <div class="p-3">
-                                    <label for="exampleFormControlInput1" class="form-label">Check In</label>
-                                    <input type="date" class="form-control" id="exampleFormControlInput1"
-                                        style="color: #5E454B">
-                                </div>
-                            </div>
-                            <div class="col">
-                                <div class="p-3"><label for="exampleFormControlInput1" class="form-label">Check
-                                        Out
-                                    </label>
-                                    <input type="date" class="form-control"
-                                        id="exampleFormControlInput1"style="color: #5E454B">
-                                </div>
-                            </div>
-                            <div class="col">
-                                <div class="p-3"><label for="exampleFormControlInput1" class="form-label">Adult
-                                    </label>
-                                    <input type="number" class="form-control"
-                                        id="exampleFormControlInput1"style="color: #5E454B">
-                                </div>
-                            </div>
-                            <div class="col">
-                                <div class="p-3"><label for="exampleFormControlInput1" class="form-label">
-
-                                        Child
-                                    </label>
-                                    <input type="number" class="form-control" id="exampleFormControlInput1"
-                                        style="color: #5E454B">
-                                </div>
-                            </div>
-
-                            <div class="col w-100 text-center">
-                                <button class="btn text-light fw-bold" style="background-color: #BBAB8C">Check
-                                    Availability</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div> -->
 
 
-        <div id="about" style="background-color: #F5F7F8;">
+
+
+        <div id="about" style="background-color: #F5F7F8;  >
             <div class="container mt-5 mb-4">
                 <div class="row align-items-md-stretch">
                     <div class="col-md-5">
@@ -107,24 +61,61 @@
 
                     <div class="col-md-7" style="color: #554931">
                         <div class="h-100 p-3">
-                            <h5>About us</h5>
-                            <h3>Apa sebernanya sistem obat pintar itu ?</h3>
+                            <h5>About Us</h5>
+                            <h3>Apa sebernanya sistem obat pintar itu?</h3>
                             <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in est eget ante feugiat convallis. Aenean gravida tellus cursus arcu blandit semper. Donec ultricies felis magna, ac vulputate felis euismod non. Nunc vehicula dolor eu scelerisque feugiat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus finibus tellus ex, sed fermentum lorem interdum in. Integer viverra orci at felis aliquet aliquet. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+                                Sistem obat pintar adalah solusi modern yang memberikan informasi terkini tentang data dan lokasi apotek. Dengan teknologi canggih, sistem ini mempermudah akses ke informasi yang dibutuhkan untuk mendapatkan obat dengan cepat dan efisien.
                             </p>
                             <div class="col-md-7" style="color: #554931">
-                            <h5>Nama Kelompok:</h5>
-                    <ul class="list-group">
-                        <li class="list-group-item">1. Ardian Wahyu Saputra - NIM: 12345678</li>
-                        <li class="list-group-item">2. Muhammad Rayhan - NIM: 23456789</li>
-                        <li class="list-group-item">3. Fitra Wahyudi - NIM: 34567890</li>
-                        <li class="list-group-item">4. Muhammad Rendi Syahputra - NIM: 45678901</li>
-                        <li class="list-group-item">5. Muhammad Hafizh Fadhillah - NIM: 56789012</li>
-                    </ul>
+                                <h5>Nama Kelompok:</h5>
+                                <ul class="list-group">
+                                    <li class="list-group-item member-item">
+                                        <span class="member-name">Ardian Wahyu Saputra</span>
+                                        <span class="member-nim">NIM: 12345678</span>
+                                    </li>
+                                    <li class="list-group-item member-item">
+                                        <span class="member-name">Muhammad Rayhan</span>
+                                        <span class="member-nim">NIM: 23456789</span>
+                                    </li>
+                                    <li class="list-group-item member-item">
+                                        <span class="member-name">Fitra Wahyudi</span>
+                                        <span class="member-nim">NIM: 34567890</span>
+                                    </li>
+                                    <li class="list-group-item member-item">
+                                        <span class="member-name">Muhammad Rendi Syahputra</span>
+                                        <span class="member-nim">NIM: 45678901</span>
+                                    </li>
+                                    <li class="list-group-item member-item">
+                                        <span class="member-name">Muhammad Hafizh Fadhillah</span>
+                                        <span class="member-nim">NIM: 56789012</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
+
+                    <style>
+                        .member-item {
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                            padding: 10px;
+                            margin-bottom: 10px;
+                            background-color: #f8f9fa; /* Optional: Add a light background color for better visibility */
+                            border-radius: 5px;
+                        }
+                        .member-name {
+                            font-weight: bold;
+                        }
+                        .member-nim {
+                            color: #6c757d;
+                        }
+                    </style>
+
                 </div>
             </div>
         </div>
+
     </header>
 
     <main>
